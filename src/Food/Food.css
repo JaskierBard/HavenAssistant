@@ -111,3 +111,34 @@ input:read-only {
 input:read-only:focus {
   background-color: darkslategray; /* Kolor pozostaje taki sam po aktywowaniu */
 }
+
+.food-bonus-button {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  width: 150px; /* Ustaw szerokość przycisku */
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* Dodaj styl dla aktywnego przycisku, np. po najechaniu myszką */
+.food-bonus-button:hover {
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Dodaj margines między rzędami */
+}
+
+.bonuses-section{
+  width: 340px;
+  background-color: rgba(0, 0, 0, 0.13);
+  margin-left: 820px;  
+  border-radius:0px 0px 4px  4px ;
+
+}

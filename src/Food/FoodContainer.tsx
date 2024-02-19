@@ -7,8 +7,8 @@ interface FoodItem {
   tips?: string;
   energy?: number;
   hunger?: number;
-  EnergyHunger?: number;
-  FoodEventPoints?: any;
+  energyHunger?: number;
+  foodEventPoints?: any;
   HungerperFEP?: number;
   FEPperHunger?: number;
   png: string;
@@ -22,7 +22,7 @@ export const FoodContainer = (props: any) => {
     const sumFEP = () => {
       let sum = 0;
       let data: any = [];
-      Object.entries(foodDetails?.FoodEventPoints || {}).forEach(
+      Object.entries(foodDetails?.foodEventPoints || {}).forEach(
         ([stat, value]) => {
           sum += checkStatsLevel(value as any, quality);
           data.push({ stat: stat, value: value });
@@ -77,14 +77,14 @@ export const FoodContainer = (props: any) => {
                 </td>
               </tr>
               <tr>
-                <th>Energy(%)</th>
+                <th>Energy</th>
                 <td>{foodDetails.energy}</td>
               </tr>
               <tr>
-                <th>Hunger(‰)</th>
+                <th>Hunger</th>
                 <td>{foodDetails.hunger}</td>
               </tr>
-              {Object.entries(foodDetails?.FoodEventPoints || {}).map(
+              {Object.entries(foodDetails?.foodEventPoints || {}).map(
                 ([stat, value], index) => (
                   <tr key={index}>
                     <th>{stat}</th>

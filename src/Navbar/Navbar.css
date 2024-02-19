@@ -1,3 +1,24 @@
+:root {
+  --strength1: #f4938c;
+  --agility1: #929afb;
+  --intelligence1: #b6e0f5;
+  --constitution1: #fc91df;
+  --perception1: #ffce92;
+  --charisma1: #79ffa5;
+  --dexterity1: #fee9b9;
+  --will1: #d8f45a;
+  --psyche1: #d39bff;
+  --strength2: #f4938c;
+  --agility2: #929afb;
+  --intelligence2: #b6e0f5;
+  --constitution2: #fc91df;
+  --perception2: #ffce92;
+  --charisma2: #79ffa5;
+  --dexterity2: #fee9b9;
+  --will2: #d8f45a;
+  --psyche2: #d39bff;
+}
+
 nav {
     background-color: #333; /* Kolor tła paska nawigacyjnego */
     padding: 10px;
@@ -9,6 +30,7 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
+    user-select: none;
   }
   
   li {
