@@ -1,0 +1,48 @@
+/* StatsTable.css */
+.hero{
+  background-color: rgb(73, 66, 66);
+  margin-right: 70px;
+  margin-top:70px;
+  width: 200px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid wheat;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.heroName{
+  text-align: center;
+  color: wheat;
+
+}
+
+.photo{
+  margin-left: 10px;
+}
+
+.fep{
+  text-align: center;
+  color: wheat;
+
+
+}
+.stats-table {
+  background-color: rgb(73, 66, 66);
+    /* position: relative; */
+    /* border-collapse: collapse; */
+   
+    
+    }
+  
+  .stats-table th, .stats-table td {
+    color: wheat;
+
+    padding: 2px; /* Wypełnienie komórki */
+    width: 100%;
+  }
+  
+  .stats-table th {
+    background-color: rgb(94, 84, 84);
+    color: wheat;
+    text-align: left; /* Wyrównanie tekstu */
+  }
