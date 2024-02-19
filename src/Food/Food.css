@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.food-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 500px; */
+  /* background-color: #4CAF50; */
+  gap: 20px; /* Dodaje odstępy między tabelkami */
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.food-table {
+  height: 100px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+
+  border: 1px solid wheat;
+
+  width: 200px;
+
+  border-collapse: collapse;
+  /* width: auto; */
+  background-color: rgb(73, 66, 66);
+}
+
+.food-table th,
+.food-table td {
+  border: 1px solid wheat;
+  padding: 8px; /* Wypełnienie komórki */
+  text-align: left; /* Wyrównanie tekstu */
+}
+
+.food-table th {
+  background-color: rgb(73, 66, 66);
+  color: wheat; /* Kolor tekstu nagłówka */
+}
+
+.icons {
+  width: 40px;
+}
+
+.food-list {
+  width: 300px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  border: 1px solid wheat;
+  border-bottom: none;
+  cursor: pointer;
+
+}
+
+.food-item {
+  background-color: rgb(57, 57, 59);
+  display: flex;
+  border-bottom: 1px solid wheat;
+  padding: 2px;
+
+}
+
+.food-name {
+  width: 230px;
+  height: 30px;
+  padding-left: 10px;
+  color: wheat;
+  font-size: 20px;
+
+}
+
+.food-icon{
+  width: 30px;
+  /* height: 30px; */
+
+  /* background-color: rgb(176, 176, 206); */
+
+}
+.food-section{
+  display: flex;
+
+}
+.details {
+  background-color: rgba(119, 177, 177, 0);
+}
+
+input {
+  width: 40px; /* Ustawienie szerokości na 200px */
+  background-color: rgba(7, 10, 10, 0); /* Ustawienie ciemnego tła */
+  border: 1px solid wheat; /* Ustawienie obramowania na wheat */
+  color: wheat; /* Ustawienie koloru tekstu */
+  padding: 5px; /* Dodałem padding dla lepszego wyglądu */
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+/* Zmiana koloru podpowiedzi */
+input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+/* Dodatkowe style dla inputa z podpowiedziami (np. sugerowana lista) */
+input:read-only {
+  background-color: darkslategray; /* Domyślny kolor dla nieaktywnego inputa z podpowiedziami */
+}
+
+/* Dodatkowe style dla inputa z podpowiedziami, gdy jest aktywny */
+input:read-only:focus {
+  background-color: darkslategray; /* Kolor pozostaje taki sam po aktywowaniu */
+}
