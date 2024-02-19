@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Food.css";
 import { checkStatsLevel } from "../functions/quality";
+import { stats } from "../data/stats.js";
+import { divGradientPainter } from "../functions/divGradientPainter";
 
 interface FoodItem {
   name: string;
@@ -18,6 +20,7 @@ export const FoodContainer = (props: any) => {
   const [quality, setQuality] = useState<number>(10);
   const [totalFEP, setTotalFEP] = useState<any>(0);
 
+  
   useEffect(() => {
     const sumFEP = () => {
       let sum = 0;
@@ -49,6 +52,13 @@ export const FoodContainer = (props: any) => {
           <div
             className="food-item"
             key={index}
+            // style={{ background: (!stats.includes(mushroom)
+            //   ? `${Object.entries(mushroom?.foodEventPoints || {}).map(
+            //     ([stat], index) => `var(--${stat.split("+")[0]}1)`,
+            //   )}` : "black" )}}
+            style={{...divGradientPainter(mushroom)}}
+              // : `var(--${mushroom.split("+")[0]}1)`,
+          // }}stat}stat}
             onClick={() => handleFoodClick(mushroom)}
           >
             <p className="food-name">{mushroom.name}</p>
