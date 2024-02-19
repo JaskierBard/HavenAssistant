@@ -1,0 +1,792 @@
+[
+  {
+    "name": "Apple Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Apple Pie",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 3.5,
+    "energy/hunger": 142.86,
+    "satiates": "Fruit, Bread",
+    "foodEventPoints": {
+      "constitution+1": 10
+    },
+    "hungerperFEP": 0.35,
+    "FEPperHunger": 2.86,
+    "png": "Apple_Pie.png"
+  },
+  {
+    "name": "Baked Birchbark Bream",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Birchbark Bream",
+    "producedBy": "Oven",
+    "energy": 600,
+    "hunger": 3,
+    "energy/hunger": 200,
+    "satiates": "Fish",
+    "foodEventPoints": {
+      "inteligence+1": 5,
+      "charisma+1": 5,
+      "dexterity+1": 4
+    },
+    "hungerperFEP": 0.21,
+    "FEPperHunger": 4.67,
+    "png": "Baked_Birchbark_Bream.png"
+  },
+  {
+    "name": "Birchbark Bream",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "fish_filet": "Filet of Bream",
+      "bark": "Birchbark",
+      "wegetable": "Peapod",
+      "onion": "any Onion"
+
+    },
+    "producedBy": "Hand",
+    "energy": 400,
+    "hunger": 3,
+    "energy/hunger": 133.33,
+    "satiates": "Fish",
+    "foodEventPoints": {
+      "inteligence+1": 4,
+      "charisma+1": 4,
+      "dexterity+1": 3
+    },
+    "hungerperFEP": 0.27,
+    "FEPperHunger": 3.67,
+    "png": "Baked_Birchbark_Bream.png"
+  },
+  {
+    "name": "Bark Bread",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Bark Bread",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 2.5,
+    "energy/hunger": 200,
+    "satiates": "Bread",
+    "foodEventPoints": {
+      "constitution+1": 5,
+      "will+1": 5
+    },
+    "hungerperFEP": 0.25,
+    "FEPperHunger": 4,
+    "png": "Bark_Bread.png"
+  },
+  {
+    "name": "Birthday Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "Blueberry Pie": 1,
+      "Milk": 0.2,
+      "Honey": 0.2,
+      "Chicken Egg": 1,
+      "Butter": 1,
+      "Candle": 1
+    },
+    "producedBy": "Hand",
+    "energy": 1000,
+    "hunger": 1.5,
+    "energy/hunger": 666.67,
+    "satiates": "Sweets & Desserts",
+    "foodEventPoints": {
+      "charisma+2": 12,
+      "psyche+2": 5
+    },
+    "hungerperFEP": 0.09,
+    "FEPperHunger": 11.33,
+    "png": "Birthday_Cake.png"
+  },
+  {
+    "name": "Blueberry Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Blueberry Pie Dough",
+    "producedBy": "Oven",
+    "RequiredBy": "Birthday Cake",
+    "energy": 200,
+    "hunger": 1.5,
+    "energy/hunger": 133.33,
+    "satiates": "Berries, Sweets & Desserts",
+    "foodEventPoints": {
+      "inteligence+1": 4,
+      "perception+1": 3
+    },
+    "hungerperFEP": 0.21,
+    "FEPperHunger": 4.67,
+    "png": "Blueberry_Pie.png"
+  },
+  {
+    "name": "Bread",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Bread Dough",
+    "producedBy": "Oven",
+    "RequiredBy": "Cornucopia, Roast Roach, Seal Burger",
+    "energy": 500,
+    "hunger": 3,
+    "energy/hunger": 166.67,
+    "satiates": "Bread",
+    "foodEventPoints": {
+      "constitution+1": 8
+    },
+    "hungerperFEP": 0.38,
+    "FEPperHunger": 2.67,
+    "png": "Bread.png"
+  },
+  {
+    "name": "Butter Scones",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Butter Scones",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1,
+    "energy/hunger": 500,
+    "satiates": "Bread, Dairy",
+    "foodEventPoints": {
+      "inteligence+1": 2,
+      "dexterity+1": 3
+    },
+    "hungerperFEP": 0.2,
+    "FEPperHunger": 5,
+    "png": "Butter_Scones.png"
+  },
+  {
+    "name": "Carrot Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Carrot Cake",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Sweets & Desserts",
+    "foodEventPoints": {
+      "perception+1": 7
+    },
+    "hungerperFEP": 0.21,
+    "FEPperHunger": 4.67,
+    "png": "Carrot_Cake.png"
+  },
+  {
+    "name": "Cheesecake",
+    "size": "1x1",
+    "skillRequired": "Animal Husbandry, Baking",
+    "objectRequired": "Unbaked Cheesecake",
+    "producedBy": "?",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Cheese, Sweets & Desserts",
+    "foodEventPoints": {
+      "perception+1": 3,
+      "charisma+1": 3,
+      "will+2": 4
+    },
+    "hungerperFEP": 0.15,
+    "FEPperHunger": 6.67,
+    "png": "Cheesecake.png"
+  },
+  {
+    "name": "Dream Cookies",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Dream Cookies Dough",
+    "producedBy": "Oven",
+    "energy": 400,
+    "hunger": 1,
+    "energy/hunger": 400,
+    "satiates": "Sweets & Desserts",
+    "foodEventPoints": {
+      "inteligence+2": 3,
+      "will+1": 5
+    },
+    "hungerperFEP": 0.13,
+    "FEPperHunger": 8,
+    "png": "Dream_Cookies.png"
+  },
+  {
+    "name": "Egg Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Egg Cake",
+    "producedBy": "Oven",
+    "energy": 600,
+    "hunger": 2,
+    "energy/hunger": 300,
+    "satiates": "Fowl & Poultry, Bread",
+    "foodEventPoints": {
+      "agility+1": 3,
+      "inteligence+1": 5
+    },
+    "hungerperFEP": 0.25,
+    "FEPperHunger": 4,
+    "png": "Egg_Cake.png"
+  },
+  {
+    "name": "Fishpie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Fishpie",
+    "producedBy": "Oven",
+    "energy": 700,
+    "hunger": 2.5,
+    "energy/hunger": 280,
+    "satiates": "Fish, Bread",
+    "foodEventPoints": {
+      "inteligence+1": 5,
+      "perception+1": 3
+    },
+    "hungerperFEP": 0.31,
+    "FEPperHunger": 3.2,
+    "png": "Fishpie.png"
+  },
+  {
+    "name": "Fruit Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Fruit Pie",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Fruit, Sweet & Desserts",
+    "foodEventPoints": {
+      "constitution+1": 4,
+      "perception+1": 4,
+      "perception+2": 3
+    },
+    "hungerperFEP": 0.14,
+    "FEPperHunger": 7.33,
+    "png": "Fruit_Pie.png"
+  },
+  {
+    "name": "Gingerbread Heart",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "Gingerbread Dough": 0.1,
+      "Heart Cookie Cutter": 1
+    },
+    "producedBy": "Oven",
+    "energy": 50,
+    "hunger": 0.5,
+    "energy/hunger": 100,
+    "satiates": "Sweet & Desserts",
+    "foodEventPoints": {
+      "constitution+1": 0.5,
+      "charisma+2": 0.5
+    },
+    "hungerperFEP": 0.5,
+    "FEPperHunger": 2,
+    "png": "Gingerbread_Heart.png"
+  },
+  {
+    "name": "Gingerbread Man",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "Gingerbread Dough": 0.1,
+      "Man Cookie Cutter": 1
+    },
+    "producedBy": "Oven",
+    "energy": 50,
+    "hunger": 0.5,
+    "energy/hunger": 100,
+    "satiates": "Sweet & Desserts",
+    "foodEventPoints": {
+      "strength+1": 0.5,
+      "charisma+2": 0.5
+    },
+    "hungerperFEP": 0.5,
+    "FEPperHunger": 2,
+    "png": "Gingerbread_Man.png"
+  },
+  {
+    "name": "Gingerbread Woman",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "Gingerbread Dough": 0.1,
+      "Woman Cookie Cutter": 1
+    },
+    "producedBy": "Oven",
+    "energy": 50,
+    "hunger": 0.5,
+    "energy/hunger": 100,
+    "satiates": "Sweet & Desserts",
+    "foodEventPoints": {
+      "charisma+1": 0.5,
+      "charisma+2": 0.5
+    },
+    "hungerperFEP": 0.5,
+    "FEPperHunger": 2,
+    "png": "Gingerbread_Woman.png"
+  },
+  {
+    "name": "Greenleaf Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Greenleaf Pie",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Bread, Vegetables",
+    "foodEventPoints": {
+      "inteligence+1": 2,
+      "constitution+1": 3,
+      "will+1": 1
+    },
+    "hungerperFEP": 0.25,
+    "FEPperHunger": 4,
+    "png": "Greenleaf_Pie.png"
+  },
+  {
+    "name": "Grub Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Grub Pie Dough",
+    "producedBy": "Oven",
+    "energy": 600,
+    "hunger": 1.5,
+    "energy/hunger": 400,
+    "satiates": "Bread, Forage",
+    "foodEventPoints": {
+      "strength+2": 3,
+      "perception+2": 4,
+      "will+2": 4
+    },
+    "hungerperFEP": 0.14,
+    "FEPperHunger": 7.33,
+    "png": "Grub_Pie.png"
+  },
+  {
+    "name": "Honeybun",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Honeybun Dough",
+    "producedBy": "Oven",
+    "energy": 175,
+    "hunger": 1,
+    "energy/hunger": 175,
+    "satiates": "Sweet & Desserts",
+    "foodEventPoints": {
+      "agility+1": 4,
+      "charisma+1": 0,
+      "dexterity+1": 0
+    },
+    "hungerperFEP": 0.25,
+    "FEPperHunger": 4,
+    "png": "Honeybun.png"
+  },
+  {
+    "name": "Jelly Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Jelly Cake",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Sweet & Desserts",
+    "foodEventPoints": {
+      "perception+2": 4,
+      "charisma+2": 4
+    },
+    "hungerperFEP": 0.19,
+    "FEPperHunger": 5.33,
+    "png": "Jelly_Cake.png"
+  },
+  {
+    "name": "Lardy Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Lardy Cake",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "?",
+    "foodEventPoints": {
+      "agility+1": 3,
+      "constitution+1": 3,
+      "charisma+1": 2
+    },
+    "hungerperFEP": 0.19,
+    "FEPperHunger": 5.33,
+    "png": "Lardy_Cake.png"
+  },
+  {
+    "name": "Lingon Loaf",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Lingon Loaf",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Berries, Bread",
+    "foodEventPoints": {
+      "constitution+1": 2,
+      "charisma+1": 2,
+      "charisma+2": 3
+    },
+    "hungerperFEP": 0.21,
+    "FEPperHunger": 4.67,
+    "png": "Lingon_Loaf.png"
+  },
+  {
+    "name": "Linseed Loaf",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Linseed Loaf",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Bread",
+    "foodEventPoints": {
+      "inteligence+1": 1,
+      "constitution+1": 2,
+      "perception+1": 4
+    },
+    "hungerperFEP": 0.21,
+    "FEPperHunger": 4.67,
+    "png": "Linseed_Loaf.png"
+  },
+  {
+    "name": "Magpie (Pie)",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Magpie (Pie)",
+    "producedBy": "Oven",
+    "energy": 750,
+    "hunger": 2,
+    "energy/hunger": 375,
+    "satiates": "Fowl & Poultry",
+
+    "foodEventPoints": {
+      "inteligence+2": 2,
+      "constitution+1": 3,
+      "will+1": 4
+    },
+    "hungerperFEP": 0.22,
+    "FEPperHunger": 4.5,
+    "png": "Magpie_(Pie).png"
+  },
+  {
+    "name": "Marrow Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Marrow Cake",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Offal, Bread",
+
+    "foodEventPoints": {
+      "strength+1": 4,
+      "dexterity+2": 4
+    },
+    "hungerperFEP": 0.19,
+    "FEPperHunger": 5.33,
+    "png": "Marrow_Cake.png"
+  },
+  {
+    "name": "Meatpie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Meatpie",
+    "producedBy": "Oven",
+    "energy": 700,
+    "hunger": 3.5,
+    "energy/hunger": 200,
+    "satiates": "Meat, Bread",
+
+    "foodEventPoints": {
+      "strength+1": 5,
+      "constitution+1": 4,
+      "dexterity+1": 0
+    },
+    "hungerperFEP": 0.39,
+    "FEPperHunger": 2.57,
+    "png": "Meatpie.png"
+  },
+  {
+    "name": "Mushroom & Onion Pirozhki",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Mushroom & Onion Pirozhki Dough",
+    "producedBy": "Oven",
+    "energy": 350,
+    "hunger": 2,
+    "energy/hunger": 175,
+    "satiates": "Mushrooms, Bread",
+    "foodEventPoints": {
+      "constitution+1": 4,
+      "dexterity+1": 4
+    },
+    "hungerperFEP": 0.25,
+    "FEPperHunger": 4,
+    "png": "Mushroom_&_Onion_Pirozhki.png"
+  },
+  {
+    "name": "Mushroom Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Mushroom Pie Dough",
+    "producedBy": "Oven",
+    "energy": 750,
+    "hunger": 1.5,
+    "energy/hunger": 500,
+    "satiates": "Mushrooms, Bread",
+
+    "foodEventPoints": {
+      "inteligence+1": 4,
+      "charisma+2": 4
+    },
+    "hungerperFEP": 0.19,
+    "FEPperHunger": 5.33,
+    "png": "Mushroom_Pie.png"
+  },
+  {
+    "name": "Olive Bread",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Olive Bread",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 5,
+    "energy/hunger": 100,
+    "satiates": "Fruit, Vegetables",
+
+    "foodEventPoints": {
+      "strength+1": 3,
+      "agility+2": 2,
+      "dexterity+1": 4
+    },
+    "hungerperFEP": 0.56,
+    "FEPperHunger": 1.8,
+    "png": "Olive_Bread.png"
+  },
+  {
+    "name": "Pea Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Pea Pie Dough",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Bread, Vegetables",
+    "foodEventPoints": {
+      "constitution+1": 5,
+      "perception+1": 2,
+      "charisma+1": 3
+    },
+    "hungerperFEP": 0.15,
+    "FEPperHunger": 6.67,
+    "png": "Pea_Pie.png"
+  },
+  {
+    "name": "Plum Pudding",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Plum Pudding Dough",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Sweet & Desserts",
+
+    "foodEventPoints": {
+      "agility+1": 8,
+      "psyche+1": 2
+    },
+    "hungerperFEP": 0.15,
+    "FEPperHunger": 6.67,
+    "png": "Plum_Pudding.png"
+  },
+  {
+    "name": "Poultry Pot Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Poultry Pot Pie",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 1.5,
+    "energy/hunger": 333.33,
+    "satiates": "Fowl & Poultry, Bread",
+
+    "foodEventPoints": {
+      "agility+1": 3,
+      "charisma+1": 2,
+      "dexterity+2": 4
+    },
+    "hungerperFEP": 0.17,
+    "FEPperHunger": 6,
+    "png": "Poultry_Pot_Pie.png"
+  },
+  {
+    "name": "Pumpkin Bread",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Pumpkin Bread Dough",
+    "producedBy": "Oven",
+    "energy": 500,
+    "hunger": 2,
+    "energy/hunger": 250,
+    "satiates": "Bread",
+
+    "foodEventPoints": {
+      "constitution+1": 4,
+      "charisma+2": 2
+    },
+    "hungerperFEP": 0.33,
+    "FEPperHunger": 3,
+    "png": "Pumpkin_Bread.png"
+  },
+  {
+    "name": "Pumpkin Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Pumpkin Pie Dough",
+    "producedBy": "Oven",
+    "energy": 300,
+    "hunger": 2,
+    "energy/hunger": 150,
+    "satiates": "Vegetbles",
+
+    "foodEventPoints": {
+      "strength+1": 2,
+      "constitution+1": 6
+    },
+    "hungerperFEP": 0.25,
+    "FEPperHunger": 4,
+    "png": "Pumpkin_Pie.png"
+  },
+  {
+    "name": "Raisin Butter-Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Raisin Butter-Cake",
+    "producedBy": "Oven",
+    "energy": 350,
+    "hunger": 1.5,
+    "energy/hunger": 233.33,
+    "satiates": "Sweet & Desserts, Dairy",
+
+    "foodEventPoints": {
+      "charisma+1": 7
+    },
+    "hungerperFEP": 0.21,
+    "FEPperHunger": 4.67,
+    "png": "Raisin_Butter-Cake.png"
+  },
+  {
+    "name": "Ring of Brodgar (Baking)",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Ring of Brodgar Dough",
+    "producedBy": "Oven",
+    "energy": 200,
+    "hunger": 1.5,
+    "energy/hunger": 133.33,
+    "satiates": "Bread",
+
+    "foodEventPoints": {
+      "agility+1": 6,
+      "psyche+1": 3
+    },
+    "hungerperFEP": 0.17,
+    "FEPperHunger": 6,
+    "png": "Ring_of_Brodgar_(Baking).png"
+  },
+  {
+    "name": "Seedcrisp Flatbread",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Seedcrisp Flatbread",
+    "producedBy": "Oven",
+    "RequiredBy": "Caviar Canapé",
+    "energy": 500,
+    "hunger": 1,
+    "energy/hunger": 500,
+    "satiates": "Nuts & Seeds",
+    "foodEventPoints": {
+      "strength+1": 1,
+      "constitution+1": 1,
+      "will+2": 2
+    },
+    "hungerperFEP": 0.25,
+    "FEPperHunger": 4,
+    "png": "Seedcrisp_Flatbread.png"
+  },
+  {
+    "name": "Shepherd's Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Shepherd's Pie",
+    "producedBy": "Oven",
+    "energy": 750,
+    "hunger": 1.5,
+    "energy/hunger": 500,
+    "satiates": "Bread, Meat",
+    "foodEventPoints": {
+      "strength+2": 4,
+      "constitution+1": 10,
+      "perception+2": 5
+    },
+    "hungerperFEP": 0.08,
+    "FEPperHunger": 12.67,
+    "png": "Shepherd's_Pie.png"
+  },
+  {
+    "name": "Strawberry Cake",
+    "size": "1x1",
+    "skillRequired": "Unknown",
+    "objectRequired": "Unbaked Strawberry Cake",
+    "producedBy": "Oven",
+    "energy": 400,
+    "hunger": 1.5,
+    "energy/hunger": 266.67,
+    "satiates": "Berries",
+
+    "foodEventPoints": {
+      "perception+1": 6,
+      "will+2": 6
+    },
+    "hungerperFEP": 0.13,
+    "FEPperHunger": 8,
+    "png": "Strawberry_Cake.png"
+  },
+  {
+    "name": "Wellplaiced Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": "Unbaked Wellplaiced Pie",
+    "producedBy": "Oven",
+    "energy": 600,
+    "hunger": 3,
+    "energy/hunger": 200,
+    "satiates": "Fish",
+
+    "foodEventPoints": {
+      "inteligence+1": 7,
+      "perception+1": 6,
+      "charisma+1": 4
+    },
+    "hungerperFEP": 0.18,
+    "FEPperHunger": 5.67,
+    "png": "Wellplaiced_Pie.png"
+  }
+]

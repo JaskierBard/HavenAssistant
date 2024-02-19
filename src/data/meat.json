@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Raw Bear",
+    "energy(%)": 400,
+    "hunger(‰)": 1,
+    "energy/hunger": 400,
+    "foodEventPoints": {
+      "psyche+1": 0
+    },
+    "hungerperFEP": 0.67,
+    "FEPperHunger": 1.5,
+    "png": "Raw_Bear.png"
+  }
+]

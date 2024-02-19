@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Bay Bolete",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "charisma+2": 1.43,
+      "dexterity+1": 1.43
+    },
+    "totalFEP": 2.86,
+    "png": "Bay_Bolete.png"
+  },
+
+  {
+    "name": "Yellowfeet",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "intelligence+1": 1.15,
+      "strength+1": 1.15
+    },
+    "totalFEP": 2.3,
+    "png": "Yellowfeet.png"
+  },
+  {
+    "name": "Chantrelles",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "dexterity+1": 1.1
+    },
+    "totalFEP": 2.19,
+    "png": "Chantrelles.png"
+  },
+  {
+    "name": "Button Mushroom",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "agility+1": 1.43
+    },
+    "totalFEP": 0,
+    "png": "Button_Mushroom.png"
+  },
+  {
+    "name": "Block of Trombone Chantrelle",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "constitution+2": 1.43,
+      "perception+2": 1.43
+    },
+    "totalFEP": 2.86,
+    "png": "Wblock-trumpetchantrelle.png"
+  },
+  {
+    "name": "Bloated Bolete",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "perception+1": 3,
+      "dexterity+1": 7
+    },
+    "totalFEP": 2.86,
+    "png": "Bloated_Bolete.png"
+  },
+  {
+    "name": "Black Trumpets",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "will+1": 1.43
+    },
+    "totalFEP": 2.86,
+    "png": "Black_Trumpets.png"
+  },
+  {
+    "name": "Cremini Mushroom",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "perception+1": 1
+    },
+    "hungerperFEP": 0.5,
+    "FEPperHunger": 2,
+    "png": "Cremini_Mushroom.png"
+  },
+  {
+    "name": "Dried Morels",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "strength+1": 1.5
+    },
+    "hungerperFEP": 0.67,
+    "FEPperHunger": 1.5,
+    "png": "Dried_Morels.png"
+  },
+  {
+    "name": "Field Blewits",
+    "tips": "Field Blewits grows wild on the Beech Grove, Cloud Range, Root Bosk and Dry Flat terrain.",
+    "energy": 200,
+    "hunger": 1,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "dexterity+2": 1.5
+    },
+    "hungerperFEP": 0.67,
+    "FEPperHunger": 1.5,
+    "png": "Field_Blewits.png"
+  },
+  {
+    "name": "Giant Puffball",
+    "energy": 200,
+    "hunger": 1,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "perception+1": 2,
+      "perception+2": 1
+    },
+    "hungerperFEP": 0.33,
+    "FEPperHunger": 3,
+    "png": "Giant_Puffball.png"
+  },
+  {
+    "name": "Indigo Cap",
+    "energy": 200,
+    "hunger": 1,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "psyche+1": 1
+    },
+    "hungerperFEP": 1,
+    "FEPperHunger": 1,
+    "png": "Indigo_Cap.png"
+  },
+  {
+    "name": "Liberty Caps",
+    "energy": 300,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+
+    "foodEventPoints": {
+      "psyche+1": 1
+    },
+    "hungerperFEP": 1,
+    "FEPperHunger": 1,
+    "png": "Liberty_Caps.png"
+  },
+  {
+    "name": "Oyster Mushroom",
+    "energy": 75,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "strength+1": 0.5,
+      "dexterity+1": 1
+    },
+    "hungerperFEP": 0.33,
+    "FEPperHunger": 3,
+    "png": "Oyster_Mushroom.png"
+  },
+  {
+    "name": "Parasol Mushroom",
+    "energy": 75,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "strength+1": 1
+    },
+    "hungerperFEP": 0.35,
+    "FEPperHunger": 2.86,
+    "png": "Parasol_Mushroom.png"
+  },
+  {
+    "name": "Parboiled Morels",
+    "tips": "place the Morels in the inventory of a cauldron that is boiling (you can place them in even before you light it, but cooking progress will not be made until the cauldron is boiling) and wait. After some time has passed (approximately 18 minutes) the morels will be cooked and may be eaten.",
+    "energy": 125,
+    "hunger": 0.5,
+    "energy/hunger": 250,
+    "foodEventPoints": {
+      "perception+1": 1
+    },
+    "hungerperFEP": 0.5,
+    "FEPperHunger": 2,
+    "png": "Parboiled_Morels.png"
+  },
+  {
+    "name": "Portobello Mushroom",
+    "energy": 75,
+    "hunger": 0.75,
+    "energy/hunger": 100,
+    "foodEventPoints": {
+      "strength+1": 1
+    },
+    "hungerperFEP": 0.75,
+    "FEPperHunger": 1.33,
+    "png": "Portobello_Mushroom.png"
+  },
+  {
+    "name": "Ruby Bolete",
+    "energy": 150,
+    "hunger": 1.5,
+    "energy/hunger": 100,
+    "foodEventPoints": {
+      "constitution+1": 0.5,
+      "perception+2": 1.5
+    },
+    "hungerperFEP": 0.75,
+    "FEPperHunger": 1.33,
+    "png": "Ruby_Bolete.png"
+  },
+  {
+    "name": "Snowtop",
+    "energy": 150,
+    "hunger": 1.5,
+    "energy/hunger": 100,
+    "foodEventPoints": {
+      "agility+1": 1.5,
+      "constitution+1": 1.5
+    },
+    "hungerperFEP": 0.5,
+    "FEPperHunger": 2,
+    "png": "Snowtop.png"
+  },
+  {
+    "name": "Stalagoom",
+    "energy": 200,
+    "hunger": 0.5,
+    "energy/hunger": 400,
+    "foodEventPoints": {
+      "constitution+2": 1,
+      "will+2": 2
+    },
+    "hungerperFEP": 0.17,
+    "FEPperHunger": 6,
+    "png": "Stalagoom.png"
+  },
+  {
+    "name": "Troll Mushrooms",
+    "energy": 400,
+    "hunger": 1,
+    "energy/hunger": 400,
+    "foodEventPoints": {
+      "psyche+1": 1.5
+    },
+    "hungerperFEP": 0.67,
+    "FEPperHunger": 1.5,
+    "png": "Troll_Mushrooms.png"
+  }
+]

@@ -1,0 +1,499 @@
+[
+  {
+    "name": "Unbaked Apple Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.55",
+      "fruit": "Red Apple",
+      "butter": "Butter"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Apple Pie",
+    "png": "Unbaked_Apple_Pie.png"
+  },
+  {
+    "name": "Unbaked Bark Bread",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 1",
+      "flour": "any Flour, 0.7",
+      "bark": "any Tree Bark"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Bark Bread",
+    "png": "Unbaked_Bark_Bread.png"
+  },
+  {
+    "name": "Blueberry Pie Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.5",
+      "fruit": "Blueberries"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Blueberry Pie",
+    "png": "Blueberry_Pie_Dough.png"
+  },
+  {
+    "name": "Bread Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 1",
+      "flour": "any Flour, 1"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Bread, Mushroom & Onion Pirozhki Dough, Unbaked Wellplaiced Pie",
+    "png": "Bread_Dough.png"
+  },
+  {
+    "name": "Unbaked Butter Scones",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.2",
+      "flour": "any Flour, 0.25",
+      "milk": "Milk, 0.1",
+      "butter": "Butter"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Butter Scones",
+    "png": "Unbaked_Butter_Scones.png"
+  },
+  {
+    "name": "Unbaked Carrot Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.4",
+      "wegetable": "Carrot, 2",
+      "butter": "Butter"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Carrot Cake",
+    "png": "Unbaked_Carrot_Cake.png"
+  },
+  {
+    "name": "Unbaked Cheesecake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.4",
+      "curd": "Curd, 3"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Cheesecake",
+    "png": "Unbaked_Cheesecake.png"
+  },
+  {
+    "name": "Dream Cookies Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.4",
+      "flour": "any Flour, 0.3",
+      "heartshorn": "Heartshorn, 0.02",
+      "dream": "A Beautiful Dream!"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Dream Cookies",
+    "png": "Dream_Cookies_Dough.png"
+  },
+  {
+    "name": "Unbaked Egg Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "egg": "any Egg, 4",
+      "milk": "any Milk, 0.2",
+      "water": "Water, 0.4",
+      "flour": "any Flour, 0.35"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Egg Cake",
+    "png": "Unbaked_Egg_Cake.png"
+  },
+  {
+    "name": "Unbaked Fishpie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.6",
+      "flour": "any Flour, 0.45",
+      "fish_filet": "any Filet of Fish, 2",
+      "egg": "any Egg, 2"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Fishpie",
+    "png": "Unbaked_Fishpie.png"
+  },
+  {
+    "name": "Unbaked Fruit Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.4",
+      "flour": "any Flour, 0.60",
+      "fruit": "Fruit or Berry, 3",
+      "butter": "Butter"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Fruit Pie",
+    "png": "Unbaked_Fruit_Pie.png"
+  },
+  {
+    "name": "Gingerbread Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.3",
+      "flour": "any Flour, 0.3",
+      "butter": "Butter",
+      "sweatener": "any Sweatener, 0.5",
+      "spices": "any Spices"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Gingerbread Heart, Gingerbread Man, Gingerbread Woman",
+    "png": "Gingerbread_Dough.png"
+  },
+  {
+    "name": "Unbaked Greenleaf Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.75",
+      "greens": "any Salad Greens, 4"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Greenleaf Pie",
+    "png": "Unbaked_Greenleaf_Pie.png"
+  },
+  {
+    "name": "Grub Pie Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.35",
+      "grub": "any Grub, 2"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Grub Pie",
+    "png": "Grub_Pie_Dough.png"
+  },
+  {
+    "name": "Honeybun Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.25",
+      "flour": "Wheat Flour, 0.35",
+      "honey": "any Honey, 0.1"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Honeybun",
+    "png": "Honeybun_Dough.png"
+  },
+  {
+    "name": "Unbaked Jelly Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.5",
+      "gellant": "any Gellant, 2",
+      "fat": "any Solid Fat",
+      "spices": "any Spices, optional"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Jelly Cake",
+    "png": "Unbaked_Jelly_Cake.png"
+  },
+  {
+    "name": "Unbaked Lardy Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "fruit": "Fruit or Berry",
+      "fat": "any Solid Fat",
+      "flour": "any Flour, 0.5",
+      "water": "Water, 0.5"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Lardy Cake",
+    "png": "Unbaked_Lardy_Cake.png"
+  },
+  {
+    "name": "Unbaked Lingon Loaf",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.6",
+      "flour": "any Flour, 0.60",
+      "berries": "Lingonberries, 2"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Lingon Loaf",
+    "png": "Unbaked_Lingon_Loaf.png"
+  },
+  {
+    "name": "Unbaked Linseed Loaf",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.3",
+      "flour": "any Flour, 0.45",
+      "oil": "Linseed Oil, 0.1",
+      "seeds": "Flax Seeds, 20"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Linseed Loaf",
+    "png": "Unbaked_Linseed_Loaf.png"
+  },
+  {
+    "name": "Unbaked Magpie (Pie)",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "meat": "Magpie Meat, 2",
+      "water": "Water, 1",
+      "flour": "any Flour, 0.75",
+      "egg": "any egg",
+      "spices": "any Spices, optional"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Magpie (Pie)",
+    "png": "Unbaked_Magpie_(Pie).png"
+  },
+  {
+    "name": "Unbaked Marrow Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.65",
+      "flour": "any Flour, 0.65",
+      "others": "Bone Marrow, 2",
+      "sweatener": "any Sweatener, 0.2"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Marrow Cake",
+    "png": "Unbaked_Marrow_Cake.png"
+  },
+  {
+    "name": "Unbaked Meatpie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.35",
+      "meat": "any Raw Meat, 2",
+      "egg": "any egg",
+      "spices": "any Spices, optional"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Meatpie",
+    "png": "Unbaked_Meatpie.png"
+  },
+  {
+    "name": "Mushroom & Onion Pirozhki Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "dough": "Bread Dough",
+      "mushroom": "any Mushroom",
+      "onion": "any Onion"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Mushroom & Onion Pirozhki",
+    "png": "Mushroom_&_Onion_Pirozhki_Dough.png"
+  },
+
+  {
+    "name": "Mushroom Pie Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.6",
+      "flour": "any Flour, 0.75",
+      "fat": "any Solid Fat",
+      "mushroom": "any Mushroom"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Mushroom Pie",
+    "png": "Mushroom_Pie_Dough.png"
+  },
+  {
+    "name": "Unbaked Olive Bread",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "wegetable": "Olive",
+      "water": "Water, 0.75",
+      "flour": "any Flour, 0.60"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Olive Bread",
+    "png": "Unbaked_Olive_Bread.png"
+  },
+  {
+    "name": "Pea Pie Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.6",
+      "wegetable": "Peapod, 3"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Pea Pie",
+    "png": "Pea_Pie_Dough.png"
+  },
+  {
+    "name": "Plum Pudding Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "driedFruit": "driedFruit, 2",
+      "brandy": "Brandy, 0.1",
+      "sweatener": "any Sweatener, 0.1",
+      "others": "Batter, 0.2"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Plum Pudding",
+    "png": "Plum_Pudding_Dough.png"
+  },
+  {
+    "name": "Unbaked Poultry Pot Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.4",
+      "flour": "any Flour, 0.4",
+      "poultry": "any Poultry, 2",
+      "wegetable": "Carrot",
+      "wegetable2": "Peapod"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Poultry Pot Pie",
+    "png": "Unbaked_Poultry_Pot_Pie.png"
+  },
+  {
+    "name": "Pumpkin Bread Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.8",
+      "flour": "any Flour, 0.8",
+      "wegetable": "Pumpkin Flesh",
+      "seeds":"Seeds of Pumpkin, 10"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Pumpkin Bread",
+    "png": "Pumpkin_Bread_Dough.png"
+  },
+  {
+    "name": "Pumpkin Pie Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.75",
+      "flour": "any Flour, 0.75",
+      "wegetable": "Pumpkin Flesh, 2"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Pumpkin Pie",
+    "png": "Pumpkin_Pie_Dough.png"
+  },
+  {
+    "name": "Unbaked Raisin Butter-Cake",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.55",
+      "others": "Raisins",
+      "butter":"Butter"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Raisin Butter-Cake",
+    "png": "Unbaked_Raisin_Butter-Cake.png"
+  },
+  {
+    "name": "Ring of Brodgar Dough",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.75",
+      "sweatener": "any Sweatener, 0.1",
+      "seeds":"Seeds of Poppy, 10"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Ring of Brodgar (Baking)",
+    "png": "Ring_of_Brodgar_Dough.png"
+  },
+  {
+    "name": "Unbaked Seedcrisp Flatbread",
+    "size": "1x1",
+    "skillRequired": "Unknown",
+    "objectRequired": {
+      "water": "Water, 0.4",
+      "flour": "any Flour, 0.5",
+      "seeds": "Crop Seeds, 35"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Seedcrisp Flatbread",
+    "png": "Unbaked_Seedcrisp_Flatbread.png"
+  },
+  {
+    "name": "Unbaked Shepherd's Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "water": "Water, 0.3",
+      "flour": "any Flour, 0.3",
+      "meat": "raw Mutton, 2",
+      "others": "Tuber Mash",
+      "onion":"any Onion",
+      "spices":"any Spices, optional"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Shepherd's Pie",
+    "png": "Unbaked_Shepherd's_Pie.png"
+  },
+  {
+    "name": "Unbaked Strawberry Cake",
+    "size": "1x1",
+    "skillRequired": "Unknown",
+    "objectRequired": {
+      "water": "Water, 0.5",
+      "flour": "any Flour, 0.4",
+      "fruit": "Strawberry, 2",
+      "butter":"Butter"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Strawberry Cake",
+    "png": "Unbaked_Strawberry_Cake.png"
+  },
+  {
+    "name": "Unbaked Wellplaiced Pie",
+    "size": "1x1",
+    "skillRequired": "Baking",
+    "objectRequired": {
+      "fish": "Plaice",
+      "dough": "Bread Dough",
+      "egg": "any egg"
+    },
+    "producedBy": "Hand",
+    "requiredBy": "Wellplaiced Pie",
+    "png": "Unbaked_Wellplaiced_Pie.png"
+  }
+]
