@@ -1,40 +1,43 @@
+.FEPcontainer{
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+
+
+}
 .FEPprogress {
   width: 300px;
-  height: 40px;
+  height: 30px;
   background-color: #6e6f72;
   border: 1px solid wheat;
   margin-left: 120px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
   display: flex;
+  cursor: pointer;
+  
 }
 
-.strength1 {
-    background-color: #f4938c;
+.FEPprogressInfo {
+  width: 300px;
+  height: 20px;
+  background-color: #65666b;
+  border: 1px solid wheat;
+  margin-top: 10px;
+  margin-left: 120px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
 }
-.agility1 {
-  background-color: #929afb;
+
+.FEPinput{
+  position: absolute;
 }
-.intelligence1 {
-  background-color: #b6e0f5;
-}
-.constitution1 {
-  background-color: #fc91df;
-}
-.perception1 {
-  background-color: #ffce92;
-}
-.charisma1 {
-  background-color: #79ffa5;
-}
-.dexterity1 {
-  background-color: #fee9b9;
-}
-.will {
-  background-color: #d8f45a;
-}
-.psyche {
-  background-color: #d39bff;
+
+.FEPprogressInfo>p{
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  
 }
 
 
